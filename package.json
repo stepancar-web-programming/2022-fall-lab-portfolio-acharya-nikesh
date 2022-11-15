@@ -1,0 +1,22 @@
+{
+  "name": "webportfolio",
+  "version": "1.0.0",
+  "description": "first package",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stepancar-web-programming/2022-fall-lab-portfolio-acharya-nikesh.git"
+  },
+  "keywords": [
+    "package"
+  ],
+  "author": "nikesh acharya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stepancar-web-programming/2022-fall-lab-portfolio-acharya-nikesh/issues"
+  },
+  "homepage": "https://github.com/stepancar-web-programming/2022-fall-lab-portfolio-acharya-nikesh#readme"
+}
