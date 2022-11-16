@@ -3,4 +3,4 @@
 
 <h3 align="center">Done By Nikesh Acharya (P33211)</h3>
 
-<b>Deploy Link: https://gentle-froyo-35380d.netlify.app/ <b> 
+<b>Deploy Link: https://clever-quokka-388b45.netlify.app/ <b> 
