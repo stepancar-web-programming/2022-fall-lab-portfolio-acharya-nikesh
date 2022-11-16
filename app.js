@@ -2,7 +2,7 @@ let mouseCursor = document.querySelector('.cursor')
 window.addEventListener('mousemove', cursor)
 function cursor (e) {
   mouseCursor.style.top = e.pageX
-  mouseCursor.style.left = pageX}
+  mouseCursor.style.left = e.pageX}
 
 const imgBx = document.querySelector('.imgBx')
 const slides = imgBx.getElementsByTagName('img')
