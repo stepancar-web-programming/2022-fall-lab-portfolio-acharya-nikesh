@@ -10,6 +10,7 @@ body{
 }
 
 
+
 /* Font Animated 3d Text  */
 
 
@@ -48,10 +49,19 @@ html{
   display: none;
 }
 
-/* About Css */
+
+
 #about{
+  display: flex;
   padding: 80px;
   color: white;
+}
+
+
+
+#about_img{
+  max-width: 500px;
+  margin: 100%;
 }
 .row{
 display: flex;
@@ -63,16 +73,13 @@ flex-wrap: wrap;
   width: 100%;
   border-radius: 2%;
 }
-/* .about-col-2{
+.about-col-2{
   flex-basis: 60%;
-} */
-/* .about-col-1{
-  flex-basis: 60%;
-} */
+} 
+
 #desc{
-  /* display: flex; */
+  position: relative;
   padding: 40px;
-  /* margin-right: 80px; */
   font-size: 30px;
   font-weight: 500;
 }
@@ -167,7 +174,7 @@ section{
 /* Image slide css */
 .banner {
   position: relative;
-  width: 50%;
+  width: 70%;
   height: 100vh;
 }
 

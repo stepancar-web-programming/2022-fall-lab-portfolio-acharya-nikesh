@@ -11,19 +11,7 @@
   href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://kit.fontawesome.com/88a4cee998.js" crossorigin="anonymous"></script>
- 
-  <!-- wzrd is loading very very very slow.  -->
-  <!-- <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
-  <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
-  <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
-  
-  <script>
-  const scriptURL = 'https://script.google.com/macros/library/d/1ml-9vYuHdJtZvZLXdSXOeD8NKmvC7GjLw_M3vh_z_4sQ8NKKwdPZS2jd/2'
-    const form = document.forms['submit-to-google-sheet']
-  </script> -->
-
-
+  <script src="https://kit.fontawesome.com/88a4cee998.js" crossorigin="anonymous"></script> 
 </head>
 <body>
   
@@ -47,7 +35,7 @@
 
         <div class="header-text">
             <p class="css-3d-text">Student at ITMO University</p>
-            <p> I am a dream to be frontend Developer </p>
+            <p> I have a dream to be frontend Developer </p>
         </div>
     </div>
 </div>
@@ -55,8 +43,9 @@
 <div id="about"> 
 
     <div class="container">
+
         <div class="row">
-            <img src="media/resized.png" alt="">
+            <img id="about_img "src="media/resized.png" alt="">
         
             <div class="about-col-1">
 
@@ -85,14 +74,13 @@
 <!-- Photo Slider Slider Section -->
 <div id="sliding">
 <section class="banner">
-    <p class ="text_slider"> Photo Slider </p>
+    <!-- <p class ="text_slider">  </p> -->
     <div class="imgBx">
         <img src="media/3.jpg" class="active" alt="">
         <img src="media/2.jpg" alt="">
         <img src="media/4.jpg" alt="">
         
     </div>
-
     <ul class="controls">
         <li onclick="prevSlide()"></li>
         <li onclick="nextSlide()"></li>
@@ -183,9 +171,8 @@
     });
 
 </script>
+
 <script src = 'app.js'></script>
-
-
 
 </body>
 </html>

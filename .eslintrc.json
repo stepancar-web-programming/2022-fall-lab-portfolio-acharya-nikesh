@@ -1,0 +1,37 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 6
+    },
+    "rules": {
+        "color-function-notation": null,
+        "scss/comment-no-empty": null,
+        "order/properties-alphabetical-order": null,
+        "extends": [ "stylelint-config-standard-scss",
+                    "stylelint-config-idiomatic-order",
+                    "stylelint-config-prettier"
+        ],  
+        "no-unused-vars": 0,
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        
+    }
+}
