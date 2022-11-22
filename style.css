@@ -484,3 +484,7 @@ nav ul li a{
     }
     
   }
+  .telephone{
+    text-decoration: none ;
+    color: white;
+  }
