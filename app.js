@@ -15,6 +15,12 @@ function nextSlide () {
   slides[i].classList.add('active')
 }
 
+function prevSlide () {
+  slides[i].classList.add('active')
+  i = (i+1 ) % slides.length
+  slides[i].classList.remove('active')
+}
+
 const sideMenu = document.getElementById('sideMenu')
 
 function openMenu () {
