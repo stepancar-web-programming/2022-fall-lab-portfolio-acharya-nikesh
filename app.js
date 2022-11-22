@@ -17,7 +17,7 @@ function nextSlide () {
 
 function prevSlide () {
   slides[i].classList.add('active')
-  i = (i+1 ) % slides.length
+  i = (i+2 ) % slides.length
   slides[i].classList.remove('active')
 }
 
