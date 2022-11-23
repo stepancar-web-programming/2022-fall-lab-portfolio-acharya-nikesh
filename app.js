@@ -1,8 +1,10 @@
-let mouseCursor = document.querySelector('.cursor')
-window.addEventListener('mousemove', cursor)
-function cursor (e) {
+/* eslint-disable no-unused-vars */
+const mouseCursor = document.querySelector('.cursor')
+function cursor(e) {
   mouseCursor.style.top = e.pageX
-  mouseCursor.style.left = e.pageX}
+  mouseCursor.style.left = e.pageX
+}
+window.addEventListener('mousemove', cursor)
 
 const imgBx = document.querySelector('.boxx')
 const slides = imgBx.getElementsByTagName('img')
@@ -17,7 +19,7 @@ function nextSlide() {
 
 function prevSlide() {
   slides[i].classList.add('active')
-  i = (i+2 ) % slides.length
+  i = (i + 2) % slides.length
   slides[i].classList.remove('active')
 }
 
@@ -32,7 +34,7 @@ function closeMenu() {
 
 const contactDetails = document.getElementById('contact-details')
 
-function contact () {
+function contact() {
   contactDetails.innerText = 'I am currenctly living in Vyazemskiy Pereulok, Saint Petersburg. You can contact me directly by Whatsapp. For that click on the icons.'
 }
 contact()
