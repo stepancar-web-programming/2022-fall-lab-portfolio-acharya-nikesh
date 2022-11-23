@@ -8,6 +8,7 @@ window.addEventListener('mousemove', cursor)
 
 const imgBx = document.querySelector('.boxx')
 const slides = imgBx.getElementsByTagName('img')
+// eslint-disable-next-line no-console
 console.log(slides)
 let i = 0
 
