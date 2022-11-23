@@ -4,6 +4,7 @@
   "description": "first package",
   "main": "app.js",
   "scripts": {
+    "eslint": "npx eslint . --ext .js,.html --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
