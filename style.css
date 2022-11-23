@@ -8,12 +8,6 @@ body{
   background: #090808;
   color:#fff;
 }
-
-
-
-/* Font Animated 3d Text  */
-
-
  .css-3d-text {
     font-size: 70px;
     color: #ffc107;
@@ -33,9 +27,6 @@ body{
                  11px 11px 1px rgba(0,0,0,0.5),
                  0px 0px 10px rgba(0,0,0,.2);
  }
-
-
-/* Scroll behaviour for scrolling  */
 html{
   scroll-behavior: smooth;
 }
@@ -48,17 +39,14 @@ html{
   background-position: center;
   display: none;
 }
-
-
-
 #about{
-  display: flex;
+  display: none;
   padding: 80px;
   color: white;
 }
-
-
-
+#sliding{
+  display: none;
+}
 #about_img{
   max-width: 500px;
   margin: 100%;
@@ -87,20 +75,14 @@ flex-wrap: wrap;
 nav .fas{
   display: none;
 }
-
-
-
-/* Video Section */
 .wrapper{
-  display: flex;
+  display: none;
 }
-
 section{
   width: 100vw;
   flex-shrink: 0;
   overflow: hidden;
 }
-
 .video-section video{
   height: 100vh;
   width: 100vw;
@@ -108,41 +90,27 @@ section{
   z-index: -2;
   position: absolute;
 }
-
 .img-container{
 
   top:0;
   height: 100vh;
   width: 100vw;
 }
-
-
 .img{
   object-fit: cover;
   height: 100%;
   width: 100%;
-
 }
-
-
-
 .section{
   background-color: #141414;
   padding: 7rem;
 }
-
-
-/* End of Video Section */
-
-/* --------------------- CSS for all screens Responsice  */
 @media only screen and (max-width: 600px){
   #header{
     background-image: url(media/cropped.png);  
-    /* need to keep phone background here */
   }
   .about-col-1{
     background-image: url(media/3.png);  
-    /* need to keep phone background here */
   }
   nav .fas{
     display: block;
@@ -170,8 +138,6 @@ section{
     cursor: pointer;
   }
 }
-
-/* Image slide css */
 .banner {
   position: relative;
   width: 70%;
@@ -200,11 +166,9 @@ section{
   -ms-transition: 0.5s ease-in-out;
   -o-transition: 0.5s ease-in-out;
 }
-
 .banner .imgBx img.active {
   opacity: 0.9;
 }
-
 .controls {
   position: absolute;
   left: 0;
@@ -215,7 +179,6 @@ section{
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
 }
-
 .controls li {
   width: 60px;
   height: 60px;
@@ -231,16 +194,13 @@ section{
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
 }
-
 .controls li:hover {
   background: #faa000;
 }
-
 .controls li:hover::before {
   border-left: 3px solid #fff;
   border-bottom: 3px solid #fff;
 }
-
 .controls li::before {
   content: "";
   position: absolute;
@@ -254,7 +214,6 @@ section{
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
 }
-
 .controls li:nth-child(2)::before {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
@@ -262,18 +221,14 @@ section{
   -ms-transform: rotate(-135deg);
   -o-transform: rotate(-135deg);
 }
-
-/* CSS slider Ends */
-
-
-/* Contact CSS starts */
-
 .contact-left{
   flex-basis: 35%;
+  display: none;
 
 }
 .contact-right{
-  flex-basis: 60%;;
+  flex-basis: 60%;
+  display: none;
 }
 .social-icons{
   margin-top: 30px;
@@ -285,7 +240,6 @@ margin-right:15px;
 color: #ababab;
 display: inline-block;    
 }
-
 .contact-right form{
   width: 100%;
 }
@@ -305,15 +259,6 @@ form .btn2{
   cursor: pointer;
   margin-top: 21px;
 }
-
-
-
-/* Contact CSS ends */
-
-/* making div loader centralized  */
-
-
-/* Pre  Loader CSS */
 .loader{ 
     position: absolute;
     top: 50%;
@@ -324,54 +269,38 @@ form .btn2{
     box-sizing: border-box;
     background: #000;
   }
-  /*  */
   .loader .face{
     position: absolute;
     border: 2px solid #121212;
   }
-
-
   .container{
     padding: 10px 10%;
   }
 nav{
   display: flex;  
-  /* making logo and nav side by side */
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
 nav ul li{
   display: inline-block;
   list-style: none;
   margin: 10px 20px;
-
 }
 nav ul li a{
   color: #fff;
   text-decoration: none;
   font-size: 10px;
   position: relative;
-  
-
 }
 .header-text{
-  
   margin-top: 20%;
   font-size: 30px;
 }
-
 .about-col-1 img{
  width: 20vw;
  height: 60vh;
-
 }
-
-
-/* Can do hover effect  */
-
-
   .loader .face.face1{
   top:0px;
   left: 0px;
@@ -384,7 +313,6 @@ nav ul li a{
   border-top: 2px solid #ffff00;
   animation: animate 3s linear infinite;
   }
-  
   .loader .face.face2{
     top:30px;
     left: 30px;
@@ -396,7 +324,6 @@ nav ul li a{
     border-right: 2px solid #03a9f4;
     border-bottom: 2px solid #03a9f4;
     animation: animate 3s linear reverse infinite;
-  
     }
     .loader .face .circle{
       position: absolute;
@@ -467,22 +394,16 @@ nav ul li a{
     width: 10px;
     height: 10px;
     position: absolute;
-    /* padding-left: 50px;
     padding-top:60px; */
     background-color: black;
-    /* border-left: 2px solid #4070f4; */
-    /* animation: animates 3s steps(10) infinite; */
   }
-  
-  /*  optional animation for text "Loading" */
-  @keyframes animates {
+    @keyframes animates {
     10%, 60%{
      opacity: 0%;
     }
     100%{
       opacity: 100%
     }
-    
   }
   .telephone{
     text-decoration: none ;
